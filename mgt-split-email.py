@@ -1,3 +1,12 @@
+#!/usr/bin/env python
+
+'''
+Author: Toni Jung
+Date: March 12, 2015 - 10:44am
+Goal: email out to each individual students a PDF grade report.. should be doing this in R but I'm lazy and Python is awesome.
+
+'''
+
 from PyPDF2 import PdfFileWriter, PdfFileReader
 import os, sys
 import smtplib
